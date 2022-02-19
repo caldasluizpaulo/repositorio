@@ -11,6 +11,7 @@ public class DesafioApp {
 		System.out.println("");
 		System.out.println("QUESTÃO 1 :: DIGITE 1 PARA ACESSAR");
 		System.out.println("QUESTÃO 2 :: DIGITE 2 PARA ACESSAR");
+		System.out.println("QUESTÃO 3 :: DIGITE 2 PARA ACESSAR");
 		
 		/**
 		 * INSTANCIAR LEITOR DO FRONT DA APLICACÃO
@@ -37,7 +38,11 @@ public class DesafioApp {
 		if(numeroQuestao == 2) {
 			Questao2 questao2 = new Questao2();
 			questao2.run();
-			
+		}
+		
+		if(numeroQuestao == 3) {
+			Questao3 questao3 = new Questao3();
+			questao3.run();
 		}
 
 		/**
