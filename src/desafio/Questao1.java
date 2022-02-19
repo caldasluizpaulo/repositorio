@@ -18,23 +18,23 @@ public class Questao1 {
 	
 	
 	public void run() {
-
+		
 		/**
 		 * INSTANCIAR LEITOR E CRIAR LISTA PARA DEGRAUS
 		 */
-		Scanner leitor = new Scanner(System.in);
+		Scanner leitor1 = new Scanner(System.in);
 		List<String> degraus = new ArrayList<>();
 
 		/**
 		 * INTERAÇÃO USUARIO. QUESTIONAR QUANTIDADE DE DEGRAUS
 		 */
-		System.out.print("Digite a quantidade de degraus: ");
-		int quantidadeDegraus = leitor.nextInt();
+		System.out.println("Digite a quantidade de degraus: ");
+		int quantidadeDegraus = leitor1.nextInt();
 
 		/**
 		 * FECHAR LEITOR
 		 */
-		leitor.close();
+		leitor1.close();
 
 		/**
 		 * CRIAR DEGRAU E E ADICIONAR NA LISTA
