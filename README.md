@@ -13,4 +13,4 @@ Projeto desenvolvido em JAVA 11 com base no:
 - Realizar o clone ou download do projeto.
 - Executar a classe: DesafioApp
 - A classe DesafioApp irá interagir com o usuário questionando opções de questões
-- A classe DesafioApp irá instancias as classes das questões e executar o médotods responsáveis.
+- A classe DesafioApp irá instanciar os objetos necessários e executar a questão escolhida.
